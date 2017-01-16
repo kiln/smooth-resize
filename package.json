@@ -1,0 +1,20 @@
+{
+  "name": "@flourish/smooth_resize",
+  "version": "0.1.0",
+  "description": "Smoothly animated window resizing",
+  "main": "smooth_resize.js",
+  "module": "src/index.js",
+  "directories": { },
+  "scripts": {
+    "prepublish": "rollup -c"
+  },
+  "author": "Kiln Enterprises Ltd",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "rollup": "^0.41.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kiln/smooth-resize.git"
+  }
+}
