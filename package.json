@@ -1,6 +1,6 @@
 {
   "name": "@flourish/smooth-resize",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Smoothly animated window resizing",
   "main": "smooth-resize.js",
   "module": "src/index.js",
