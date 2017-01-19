@@ -1,17 +1,19 @@
 {
   "name": "@flourish/smooth-resize",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Smoothly animated window resizing",
-  "main": "smooth_resize.js",
+  "main": "smooth-resize.js",
   "module": "src/index.js",
-  "directories": { },
+  "directories": {},
   "scripts": {
-    "prepublish": "rollup -c"
+    "prepublish": "rollup -c && npm run minify",
+    "minify": "uglifyjs -m -o smooth-resize.min.js smooth-resize.js"
   },
   "author": "Kiln Enterprises Ltd",
-  "license": "UNLICENSED",
+  "license": "BSD-3-Clause",
   "devDependencies": {
-    "rollup": "^0.41.1"
+    "rollup": "^0.41.1",
+    "uglify": "^0.1.5"
   },
   "repository": {
     "type": "git",
